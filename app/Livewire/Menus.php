@@ -10,6 +10,7 @@ class Menus extends Component
     public function mount()
     {
         $this->menus = config('menu'); // load menu from config/menu.php
+        // dd($this->menus);
     }
     public function render()
     {
